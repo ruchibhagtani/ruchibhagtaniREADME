@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <style>
         /* Existing CSS */
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
         header {
             background-color: #0056b3;
             color: white;
@@ -129,7 +137,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 50px;
+            margin-top: 100px;
         }
 
         .circle {
@@ -322,33 +330,19 @@
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li class="dropdown">
-                    <a href="aboutus1.html">About Us <i class="fas fa-caret-down"></i></a>
+                    <a href="#">About Us <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
                         <a href="aboutus1.html">Who We Are</a>
                         <a href="aboutus2.html">What We Do</a>
                         <a href="aboutus3.html">Our Vision</a>
-                        <a href="aboutus4.html">join Us</a>
+                        <a href="aboutus4.html">Join US</a>
+
                     </div>
                 </li>
-                <li class="dropdown">
-                    <a href="#">Programs <i class="fas fa-caret-down"></i></a>
-                    <div class="dropdown-content">
-                        <a href="#">Peace Initiatives</a>
-                        <a href="#">Justice Projects</a>
-                        <a href="#">Institution Building</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Get Involved <i class="fas fa-caret-down"></i></a>
-                    <div class="dropdown-content">
-                        <a href="#">Volunteer</a>
-                        <a href="#">Donate</a>
-                        <a href="#">Partner with Us</a>
-                    </div>
-                </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="initative.html">Initiatives</a></li>
+                <li><a href="form.html">Get Involved</a></li>
             </ul>
         </nav>
     </header>
@@ -370,8 +364,8 @@
      border-color: rgb(69, 69, 228);">Our Vision</h1>
     <div class="wrapper" style="margin-top: 50px;margin-bottom: 90px;margin-left: 270px;">
         <div class="accordion-wrapper">
-            <div style="margin-left:-280px; margin-bottom:-100px;"><img src="justi2 (2).jpeg" alt="" height="150px" width="150px"></div>
-            <div class="parent-tab" style="margin-bottom: 30px;width:740px;">
+            <div style="margin-left:-250px; margin-bottom:-100px;"><img src="justi2 (2).jpeg" alt="" height="150px" width="150px"></div>
+            <div class="parent-tab" style="margin-bottom: 30px;width:740px;margin-left: 130px">
                 <input type="checkbox" id="tab1">
                 <label for="tab1"style="height: 60px;">
                     <span style="font-size: 25px;">peace</span>
@@ -387,8 +381,8 @@
                         a peaceful society.</p>
                 </div>
             </div>
-            <div style="margin-left:-280px; margin-bottom:-132px;"><img src="justi2 (1).jpeg" alt="" height="150px" width="150px"></div>
-            <div class="parent-tab" style="margin-bottom: 27px; width:740px; margin-top:10px;">
+            <div style="margin-left:-250px; margin-bottom:-132px;"><img src="justi2 (1).jpeg" alt="" height="150px" width="150px"></div>
+            <div class="parent-tab" style="margin-bottom: 27px; width:740px; margin-top:10px; margin-left: 130px;">
                 <input type="checkbox" id="tab2" >
                 <label for="tab2"style="height: 60px;">
                     <span style="font-size: 25px;">Justice</span>
@@ -403,8 +397,8 @@
                         and obtain justice without fear of retribution or discrimination.</p>
                 </div>
             </div>
-            <div style="margin-left:-280px; margin-bottom:-130px; margin-top:60px;"><img src="justi.jpeg" alt="" height="150px" width="150px"></div>
-            <div class="parent-tab" style=" width:740px;">
+            <div style="margin-left:-250px; margin-bottom:-130px; margin-top:60px;"><img src="justi.jpeg" alt="" height="150px" width="150px"></div>
+            <div class="parent-tab" style=" width:740px; margin-left: 130px">
                 <input type="checkbox" id="tab3">
                 <label for="tab3" style="height: 60px;">
                     <span style="font-size: 25px;">strong Intitution</span>
@@ -429,15 +423,15 @@
           <div class="footer-section">
             <h3>Navigation</h3>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Initiatives</a></li>
-              <li><a href="#">Registration</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">News</a></li>
+              <li><a href="aboutus1.html">About Us</a></li>
+              <li><a href="initative.html">Initiatives</a></li>
+              <li><a href="form.html">Get Involved</a></li>
             </ul>
           </div>
           <div class="footer-section">
-            <h3>About Us</h3>
+            <h3 style="text-align: center;">About Us</h3>
             <p style="text-align: center;">Our mission is to promote peace, justice, and strong institutions worldwide. We believe in the power of communities to drive change and make the world a better place for all.</p>
           </div>
           <div class="footer-section">
@@ -452,8 +446,9 @@
         
         </div>
         <div class="footer-bottom">
-          <h4>Presented by Frontend Force</h4>
-          <p><b>Team Member:</b> Harsh Lalwani, Simran, Sunil, Ruchi, Harsh Pareek, Daksh, Radhika, Palak</p>
+          <h4>Presented by Frontend Force</p></h4>
+          
+          <p> <b>Team Member: </b>Sunil Sawlani, Harsh Lalwani, Harsh Pareek, Simran HimmatSinghani, Ruchi Bhagtani, Daksh Sharma, Palak Ganwani, Shree Radhika Khandelwal</p>
         </div>
       </footer>
     <!-- footer end -->

@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
         header {
             background-color: #0056b3;
             color: white;
+            font-family: 'Arial', sans-serif;
         }
 
         .header-top {
@@ -104,8 +113,8 @@
         .para1 {
             border: 4px solid rgb(38, 3, 196);
             font-size: 15px;
-            padding: 10px;
-            margin-left: 0px;
+            padding: 0;
+            margin-left: 20px;
         }
 
         .para2 {
@@ -136,7 +145,7 @@
             box-sizing: border-box;
         }
 
-        h1 {
+       .para1 h1 {
             color: #0073e6;
             font-size: 1.5rem;
             margin-bottom: 20px;
@@ -268,57 +277,48 @@
     </style>
 </head>
 <body>
-    <div class="header-top">
-        <div class="logo">
-            <img src="logo.png" alt="Logo">
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <h1>Promoting Peace, Justice, and Strong Institutions Worldwide</h1>
         </div>
-        <h1 style="color: #fff;">Promoting Peace, Justice, and Strong Institutions Worldwide</h1>
-    </div>
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li class="dropdown">
-                <a href="aboutus1.html">About Us <i class="fas fa-caret-down"></i></a>
-                <div class="dropdown-content">
-                    <a href="aboutus1.html">Who We Are</a>
-                    <a href="aboutus2.html">What We Do</a>
-                    <a href="aboutus3.html">Our Vision</a>
-                    <a href="aboutus4.html">Join Us</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="#">Programs <i class="fas fa-caret-down"></i></a>
-                <div class="dropdown-content">
-                    <a href="#">Peace Initiatives</a>
-                    <a href="#">Justice Projects</a>
-                    <a href="#">Institution Building</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="#">Get Involved <i class="fas fa-caret-down"></i></a>
-                <div class="dropdown-content">
-                    <a href="#">Volunteer</a>
-                    <a href="#">Donate</a>
-                    <a href="#">Partner with Us</a>
-                </div>
-            </li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">About Us <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="aboutus1.html">Who We Are</a>
+                        <a href="aboutus2.html">What We Do</a>
+                        <a href="aboutus3.html">Our Vision</a>
+                        <a href="aboutus4.html">Join US</a>
 
-    <div style="margin-top:20px;"><img src="mg2.jpeg" class="fullimg" alt="Full Width Image"></div>
+                    </div>
+                </li>
+                <li><a href="initative.html">Initiatives</a></li>
+                <li><a href="form.html">Get Involved</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div style="margin-top:20px;"><img src="wwr.jpeg" class="fullimg" alt="Full Width Image"></div>
 
     <table class="para1">
         <tr>
             <td>
-                <h1>Our Summary</h1>
-                <p style="width: 450px; margin-right: 30px;">
-                    We are specifically a dedicated non-profit organization and a group of undergraduates started this website as a source for connecting more and more people, especially youth. We are initially 8 friends together done a presentation on promoting Peace, Justice, And Strong Institutions in our college, then slowly and gradually we started a community called “WELFARE WARRIORS”. Now we are a community of around 80 youths in our area, and we all have come a long way. It has taken us about 2 years to form this community.
+                <h1 style="text-align: center; margin-left: -90px;">Our Summary</h1>
+                <p style="width: 450px; margin-right: 100px; text-align: center;">
+                    We are specifically a dedicated non-profit organization and a group of undergraduates
+                     started this website as a source for connecting more and more people, especially youth. 
+                     We are initially 8 friends together done a presentation on promoting Peace, Justice, And 
+                     Strong Institutions in our college, then slowly and gradually we started a community called 
+                     “WELFARE WARRIORS”. Now we are a community of around 80 youths in our area, and we all have 
+                     come a long way. It has taken us about 2 years to form this community.
                 </p>
             </td>
-            <td style="height: 10vh; width: 10vw;">
-                <img src="mg6.jpeg" height="380px" width="500px" alt="">
+            <td style="height: 400px; width: 500px;">
+                <img src="mg6.jpeg" height="380px" width="700px" alt="">
             </td>
         </tr>
     </table>
@@ -377,36 +377,38 @@
         setInterval(autoSlide, 3000);
     </script>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Navigation</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Initiatives</a></li>
-                    <li><a href="#">Registration</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>About Us</h3>
-                <p style="text-align: center;">Our mission is to promote peace, justice, and strong institutions worldwide. We believe in the power of communities to drive change and make the world a better place for all.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Contact info.</h3>
-                <ul>
-                    <li><i class="fas fa-phone"></i> Phone No.</li>
-                    <li><i class="fas fa-envelope"></i> Emails</li>
-                    <li><i class="fab fa-instagram"></i> Instagram</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Address</li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <h4>Presented by Frontend Force</h4>
-            <p><b>Team Member:</b> Harsh Lalwani, Simran, Sunil, Ruchi, Harsh Pareek, Daksh, Radhika, Palak</p>
-        </div>
-    </footer>
+<footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">News</a></li>
+          <li><a href="aboutus1.html">About Us</a></li>
+          <li><a href="initative.html">Initiatives</a></li>
+          <li><a href="form.html">Get Involved</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3 style="text-align: center;">About Us</h3>
+        <p style="text-align: center;">Our mission is to promote peace, justice, and strong institutions worldwide. We believe in the power of communities to drive change and make the world a better place for all.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Contact info.</h3>
+        <ul>
+          <li><i class="fas fa-phone"></i> Phone No.</li>
+          <li><i class="fas fa-envelope"></i> Emails</li>
+          <li><i class="fab fa-instagram"></i> Instagram</li>
+          <li><i class="fas fa-map-marker-alt"></i> Address</li>
+        </ul>
+      </div>
+    
+    </div>
+    <div class="footer-bottom">
+      <h4>Presented by Frontend Force</p></h4>
+      
+      <p> <b>Team Member: </b>Sunil Sawlani, Harsh Lalwani, Harsh Pareek, Simran HimmatSinghani, Ruchi Bhagtani, Daksh Sharma, Palak Ganwani, Shree Radhika Khandelwal</p>
+    </div>
+  </footer>
 </body>
 </html>
